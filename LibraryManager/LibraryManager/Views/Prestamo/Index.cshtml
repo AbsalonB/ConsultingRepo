@@ -1,0 +1,60 @@
+﻿@model IEnumerable<AspCoreModels.PrestamoModel>
+@{
+    ViewData["Title"] = "Biblioteca Comunitaria";
+}
+    <p>
+        <a asp-action="Create">Nuevo Prestamo</a>
+    </p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Estudiante)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Editorial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaPrestamo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaDevolucion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Devuelto)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Prestamo in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => Prestamo.Estudiante)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Prestamo.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Prestamo.Editorial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Prestamo.FechaPrestamo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Prestamo.FechaDevolucion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Prestamo.Devuelto)
+            </td>
+            <td>
+                <a asp-action="Index" asp-route-id="@Prestamo.IdPrestamo">Editar</a>  
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

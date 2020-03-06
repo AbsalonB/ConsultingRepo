@@ -1,0 +1,12 @@
+﻿@model List<AspCoreModels.LibrosModel>
+@{
+    ViewData["Title"] = "Biblioteca Comunitaria";
+}
+<table class="table">
+    @foreach (var Libro in Model)
+    {
+        <tr>
+            <td>@Libro.Titulo</td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<AspCoreModels.EstudianteModel>
+@{
+    ViewData["Title"] = "Biblioteca Comunitaria";
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CI)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Direccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Edad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Carrera)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Libro in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => Libro.CI)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Libro.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Libro.Apellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Libro.Direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Libro.Edad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Libro.Carrera)
+            </td>
+            <td>
+                <a asp-action="Index" asp-route-id="@Libro.IdLector">Editar</a> | 
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

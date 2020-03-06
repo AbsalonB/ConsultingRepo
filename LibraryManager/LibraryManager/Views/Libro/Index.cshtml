@@ -1,0 +1,40 @@
+﻿@model IEnumerable<AspCoreModels.LibrosModel>
+@{
+    ViewData["Title"] = "Biblioteca Comunitaria";
+}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Titulo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Area)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model=>model.Editorial)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Libro in Model)
+            {
+            <tr> 
+                <td>
+                    @Html.DisplayFor(modelItem=>Libro.Titulo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>Libro.Area)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>Libro.Editorial)
+                </td>
+                <td>
+                    <a asp-action="Index" asp-route-id="@Libro.IdLibro">Editar</a> |
+                    <a asp-action="Index" asp-route-id="@Libro.IdLibro">Eliminar</a>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>

@@ -1,0 +1,8 @@
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\AspCoreModels\bin\Debug\netcoreapp3.1\AspCoreModels.deps.json
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\AspCoreModels\bin\Debug\netcoreapp3.1\AspCoreModels.dll
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\AspCoreModels\bin\Debug\netcoreapp3.1\AspCoreModels.pdb
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\AspCoreModels\obj\Debug\netcoreapp3.1\AspCoreModels.csprojAssemblyReference.cache
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\AspCoreModels\obj\Debug\netcoreapp3.1\AspCoreModels.AssemblyInfoInputs.cache
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\AspCoreModels\obj\Debug\netcoreapp3.1\AspCoreModels.AssemblyInfo.cs
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\AspCoreModels\obj\Debug\netcoreapp3.1\AspCoreModels.dll
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\AspCoreModels\obj\Debug\netcoreapp3.1\AspCoreModels.pdb

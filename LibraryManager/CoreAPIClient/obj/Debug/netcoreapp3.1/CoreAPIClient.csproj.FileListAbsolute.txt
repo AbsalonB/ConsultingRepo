@@ -1,0 +1,11 @@
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\CoreAPIClient\bin\Debug\netcoreapp3.1\CoreAPIClient.deps.json
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\CoreAPIClient\bin\Debug\netcoreapp3.1\CoreAPIClient.dll
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\CoreAPIClient\obj\Debug\netcoreapp3.1\CoreAPIClient.csprojAssemblyReference.cache
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\CoreAPIClient\obj\Debug\netcoreapp3.1\CoreAPIClient.AssemblyInfoInputs.cache
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\CoreAPIClient\obj\Debug\netcoreapp3.1\CoreAPIClient.AssemblyInfo.cs
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\CoreAPIClient\bin\Debug\netcoreapp3.1\CoreAPIClient.pdb
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\CoreAPIClient\bin\Debug\netcoreapp3.1\AspCoreModels.dll
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\CoreAPIClient\bin\Debug\netcoreapp3.1\AspCoreModels.pdb
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\CoreAPIClient\obj\Debug\netcoreapp3.1\CoreAPIClient.csproj.CopyComplete
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\CoreAPIClient\obj\Debug\netcoreapp3.1\CoreAPIClient.dll
+C:\Users\BamopetLP\Documents\Trabajos\Consulting Group\Project\LibraryManager\CoreAPIClient\obj\Debug\netcoreapp3.1\CoreAPIClient.pdb
