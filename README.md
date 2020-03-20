@@ -7,5 +7,3 @@
 * Net Core netcoreapp3.1
 * Modelo de entidad relación generado desde EA con la herramienta de import
 
-#Disculpas
-Se que no deben ir archivos binarios pero por subir tiempo lo tuve que dejar en este repo
